@@ -195,3 +195,5 @@ function activiation(){
 } 
 activiation();   
 /*nav bullet*/
+
+/*reset button*/

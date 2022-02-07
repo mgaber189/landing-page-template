@@ -1,6 +1,9 @@
 :root{
     --main-color:orange;
 }
+.active{
+    opacity: 1 !important;
+}
 .continer{
     width:80%;
     padding-left: 15px;
@@ -149,7 +152,9 @@
     font-weight: bold;
 }
 .setting-container .optionbox .btnbackground .btn,
-.setting-container .optionbox .btnnavbullets .btn{
+.setting-container .optionbox .btnnavbullets .btn,
+.setting-container .optionbox .reset
+{
     width: 60px;
     height: 20px;
     border-radius: 10%;
@@ -174,7 +179,8 @@
 
 }
 .setting-container .optionbox .btnbackground .no,
-.setting-container .optionbox .btnnavbullets .no
+.setting-container .optionbox .btnnavbullets .no,
+.setting-container .optionbox .reset
 {
     background-color: rgb(235, 39, 39);
 }
