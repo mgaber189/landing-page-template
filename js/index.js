@@ -195,5 +195,8 @@ function activiation(){
 } 
 activiation();   
 /*nav bullet*/
-
+document.querySelector(".optionbox .btnreset .reset").onclick=function(){
+    localStorage.clear();
+    window.location.reload();
+}
 /*reset button*/

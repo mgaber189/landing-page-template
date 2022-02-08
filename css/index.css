@@ -433,6 +433,7 @@
     border-radius: 10px;
     box-shadow: 7px 5px 20px 0px #938f8fad;
     transition: 0.5s;
+    cursor: pointer;
 }
 .features .featcard:hover{
     transform: scale(1.1) translateY(-0.5em);
@@ -497,3 +498,70 @@
     border-color: transparent  transparent transparent var(--main-color);
 }
 /*nav bullet*/
+/*contact us*/
+.contactus{
+    position: relative;
+}
+.contactus .leftcard{
+    position: absolute;
+    float:left;
+    padding: 40px;
+    width: 30%;
+}
+.contactus .leftcard .contacth{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+.contactus .leftcard textarea,
+.contactus .leftcard input:not([type="submit"])
+{
+    display: block;
+    padding: 15px;
+    margin: 24px;
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+    width: 100%;
+}
+.contactus .leftcard input:focus,
+.contactus .leftcard textarea:focus{
+    outline: 1px solid var(--main-color);
+}
+.contactus .leftcard input::placeholder,
+.contactus .leftcard textarea::placeholder
+{
+    font-size: 20px;
+}
+.contactus .leftcard input[type="submit"]{
+    border: none;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    margin-left: 24px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contactus .leftcard textarea{
+    height:100px ;
+}
+.contactus .rightcard{
+    float: right;
+    padding: 40px;
+    width: 45%;
+}
+.contactus .rightcard .titles{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.contactus .rightcard .text{
+    font-size: 21px;
+    color: #6c6c6cf2;
+}
+.contactus .rightcard i{
+    font-size:40px ;
+    margin-right: 7px;
+}
+/*contact us*/
