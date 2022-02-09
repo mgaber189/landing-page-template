@@ -516,6 +516,7 @@
 @media (max-width:768px){
     .features .featcard{
         margin: auto;
+        width: auto;
     }
 }
 .features .featcard:hover{
@@ -535,6 +536,12 @@
 .features .featcard img{
     width: 280px;
     height: 280px;
+}
+@media (max-width:768px){
+    .features .featcard img{
+        width: 222px;
+        height: 222px;
+    }
 }
 /*features*/
 /*nav bullet*/
@@ -600,7 +607,7 @@
 @media (max-width:768px){
     .contactus .leftcard{
         position: relative;
-        width: 90%;
+        width: 80%;
         padding: 0;
     }
 }
