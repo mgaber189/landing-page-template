@@ -95,6 +95,11 @@
     font-size: 27px;
     width: 90%;
 }
+@media (max-width:768px){
+    .introduction{
+        font-size: 20px;
+    }
+}
 .introduction span{
     color: var(--main-color);
 }
