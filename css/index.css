@@ -237,6 +237,8 @@
 @media (max-width:768px){
     .aboutus .aboutimg img{
         margin-left: 0;
+        max-width: 100%;
+        height: 350px;
     }
 }
 /*about us section*/
@@ -453,6 +455,22 @@
 }
 .clear{
     clear: both;
+}
+@media (max-width:768px){
+    .time-line::before,
+    .time-line .card::after,
+    .time-line .card::before    
+    {
+        display: none;
+    }
+    .time-line .card{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .time-line .card .content .title{
+        width: 100%;
+        text-align: center;
+    }
 }
 /* time line*/
 /*features*/
