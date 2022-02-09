@@ -323,6 +323,11 @@
     cursor: pointer;
     transition: 1s;
 }
+@media (max-width:768px){
+    .ourgallery .row .col img{
+        width: auto;
+    }
+}
 .ourgallery .row .col img:hover{
     transform: scale(1.2) translateY(-0.5em);
 }
@@ -359,6 +364,12 @@
     height: 480px;
     border: 3px solid var(--main-color);
     box-shadow: 5px 6px 15px #706e6e;
+}
+@media (max-width:768px){
+    .imgoverlay .card img{
+        width: 300px;
+        height: 280px;
+    }
 }
 /*our gallery section*/
 /* time line*/
