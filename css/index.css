@@ -197,9 +197,21 @@
     color: #c9c9c9c7;
     font-size: 121px;
 }
+@media (max-width:768px){
+    .address{
+        font-size: 80px;
+        display: none;
+    }
+}
 
 .aboutus{
     display: flex;
+}
+@media (max-width:768px){
+    .aboutus{
+        display: block;
+        text-align: center;
+    }
 }
 .aboutus .aboutwriting{
     flex: 1;
@@ -222,6 +234,11 @@
     height:500px;
     margin-left: 165px;
 }
+@media (max-width:768px){
+    .aboutus .aboutimg img{
+        margin-left: 0;
+    }
+}
 /*about us section*/
 /*skills section*/
 .skills{
@@ -236,6 +253,11 @@
     display: flex;
     align-items: center;
 }
+@media (max-width:768px){
+    .skills .skillbox{
+        display: block;
+    }
+}
 .skills .skillbox .skillname{
     width: 150px;
     color: var(--main-color);
@@ -243,6 +265,12 @@
     margin: 0;
     text-align: center;
     font-weight: bold;
+}
+@media (max-width:768px){
+    .skills .skillbox .skillname{
+        width: 100%;
+        margin-bottom: 8px;
+    }
 }
 .skills .skillbox .progressskill{
     background-color: #c1c1c1;
@@ -273,6 +301,12 @@
 .ourgallery .row{
     display: flex;
     justify-content: center;
+}
+@media (max-width:768px){
+    .ourgallery .row{
+        display: block;
+        text-align: center;
+    }
 }
 .ourgallery .row .col img{
     width: 300px;
@@ -337,6 +371,11 @@
     background-color: var(--main-color);
     margin: 213px 0px;
     z-index: -1;
+}
+@media (max-width:768px){
+    .time-line::before{
+        margin: 38px 0;
+    }
 }
 .time-line .year{
     margin: 20px auto;
@@ -425,6 +464,11 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width:768px){
+    .features .row{
+        display: block;
+    }
+}
 .features .featcard{
     background-color: white;
     text-align: center;
@@ -435,6 +479,11 @@
     transition: 0.5s;
     cursor: pointer;
 }
+@media (max-width:768px){
+    .features .featcard{
+        margin: auto;
+    }
+}
 .features .featcard:hover{
     transform: scale(1.1) translateY(-0.5em);
 }
@@ -442,6 +491,12 @@
     color: var(--main-color);
     font-weight: bold;
     font-size: 30px;
+}
+@media (max-width:768px){
+    .features .featcard h3{
+        padding-bottom: 25px;
+        margin-top: 10px;
+    }
 }
 .features .featcard img{
     width: 280px;
@@ -508,6 +563,13 @@
     padding: 40px;
     width: 30%;
 }
+@media (max-width:768px){
+    .contactus .leftcard{
+        position: relative;
+        width: 90%;
+        padding: 0;
+    }
+}
 .contactus .leftcard .contacth{
     text-align: center;
     color: var(--main-color);
@@ -551,6 +613,15 @@
     padding: 40px;
     width: 45%;
 }
+@media (max-width:768px){
+    .contactus .rightcard{
+        position: relative;
+        width: 90%;
+        padding: 0 0 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
 .contactus .rightcard .titles{
     font-size: 25px;
     font-weight: bold;
@@ -563,5 +634,20 @@
 .contactus .rightcard i{
     font-size:40px ;
     margin-right: 7px;
+    cursor: pointer;
 }
 /*contact us*/
+/*responsive*/
+@media(min-width:567px){
+    
+}
+@media(min-width:768px){
+    
+}
+@media(min-width:992px){
+    
+}
+@media(min-width:1200px){
+    
+}
+/*responsive*/
