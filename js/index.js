@@ -200,3 +200,9 @@ document.querySelector(".optionbox .btnreset .reset").onclick=function(){
     window.location.reload();
 }
 /*reset button*/
+/*links*/
+let links =document.querySelector(".res-links");
+document.querySelector(".res-nav .icon").onclick=function(){
+    links.classList.toggle("show");
+}
+/*links*/
